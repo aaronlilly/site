@@ -1,3 +1,3 @@
 # site
 
-https://aaronlilly.github.io/site/
+https://aaronlilly.github.io/site/mysite.html
