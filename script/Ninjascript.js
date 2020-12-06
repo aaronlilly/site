@@ -23,9 +23,6 @@
 
 
 
-
-
-
 var pokemon = [{"name":"Squirtle","type":"water"},{"name": "Magicarp", "type":"water"},{"name":"Blastoise","type":"water"}];
 var div = document.getElementById('first');
 div.addEventListener('click', function(){
@@ -33,7 +30,7 @@ div.addEventListener('click', function(){
 	var i=0;
 	var text ="";
 	if (pokemon[i].type == "electric"){
-	 while (pokemon[i]) {
+	 if(i < pokemon.length;){
 					 	
 					 		text += pokemon[i].name + "\n";
   				i++;} 
@@ -42,3 +39,23 @@ div.addEventListener('click', function(){
 				else { alert("you dont have any electric pokemon")}
 				
 				});
+
+
+
+
+// var pokemon = [{"name":"Squirtle","type":"water"},{"name": "Magicarp", "type":"water"},{"name":"Blastoise","type":"water"}];
+// var div = document.getElementById('first');
+// div.addEventListener('click', function(){
+
+// 	var i=0;
+// 	var text ="";
+// 	if (pokemon[i].type == "electric"){
+// 	 while (pokemon[i]) {
+					 	
+// 					 		text += pokemon[i].name + "\n";
+//   				i++;} 
+//   				alert(text);
+// 				}
+// 				else { alert("you dont have any electric pokemon")}
+				
+// 				});
